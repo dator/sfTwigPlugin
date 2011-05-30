@@ -18,7 +18,7 @@
  */
 class Text_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'truncate_text'      => new Twig_Filter_Function('truncate_text'),

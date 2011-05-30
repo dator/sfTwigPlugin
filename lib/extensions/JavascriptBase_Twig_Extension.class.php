@@ -18,7 +18,7 @@
  */
 class JavascriptBase_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'link_to_function'               => new Twig_Filter_Function('link_to_function'),

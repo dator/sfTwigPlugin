@@ -18,7 +18,7 @@
  */
 class Tag_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'tag'                    => new Twig_Filter_Function('tag'),

@@ -18,7 +18,7 @@
  */
 class Partial_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'include_component_slot' => new Twig_Filter_Function('include_component_slot'),

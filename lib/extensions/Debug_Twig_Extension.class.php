@@ -18,7 +18,7 @@
  */
 class Debug_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'log_message' => new Twig_Filter_Function('log_message'),

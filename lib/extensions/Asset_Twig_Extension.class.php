@@ -18,7 +18,7 @@
  */
 class Asset_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'auto_discovery_link_tag'        => new Twig_Filter_Function('auto_discovery_link_tag'),

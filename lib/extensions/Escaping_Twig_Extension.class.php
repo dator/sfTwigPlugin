@@ -18,7 +18,7 @@
  */
 class Escaping_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'esc_entities'       => new Twig_Filter_Function('esc_entities'),

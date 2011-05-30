@@ -18,7 +18,7 @@
  */
 class Date_Twig_Extension extends Twig_Extension
 {
-  public function getFilters()
+  public function getFunctions()
   {
     return array(
       'format_daterange'          => new Twig_Filter_Function('format_daterange'),
